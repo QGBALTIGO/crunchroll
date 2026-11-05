@@ -1,0 +1,5 @@
+{
+  "locale": "pt-BR",
+  "maxConcurrentJobs": 2,
+  "pollTimeoutSeconds": 25
+}

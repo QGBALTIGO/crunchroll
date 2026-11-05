@@ -1,0 +1,49 @@
+# Secrets / credentials
+.env
+.env.*
+!.env.example
+*.session
+*.session-journal
+appsettings.json
+config.local.json
+
+# Material sensível / DRM - nunca versionar
+widevine/
+**/widevine/
+*.pem
+*.wvd
+*device_client_id_blob*
+
+# Binaries / generated media
+lib/
+**/lib/*.exe
+*.exe
+*.dll
+*.pdb
+Downloads/
+downloads/
+temp/
+tmp/
+*.mkv
+*.mp4
+*.m4a
+*.ts
+
+# Dependencies / build
+node_modules/
+dist/
+bin/
+obj/
+__pycache__/
+*.pyc
+
+# Runtime data
+.data/
+data/*.json
+!data/.gitkeep
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
